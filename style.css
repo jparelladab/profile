@@ -1,23 +1,23 @@
-/*last version*/
-
 body {
-background-color: #63A375;
+/*background-color: #63A375;*/
+background-image: url(https://picsum.photos/900/1000);
 text-align: center;
-font-family: monospace;
+font-family: 'Roboto Condensed', sans-serif;
+background-size: cover;
+/*background-repeat: no-repeat;*/
 }
 
-
 h1 {
-  font-size: 54px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 20px;
 }
 
 p {
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 div {
@@ -25,7 +25,6 @@ div {
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #6B72E1;
   font-weight: 600;
@@ -46,11 +45,12 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  min-width: 10%;
 }
 
 .card-white {
   background-color: white;
-  padding: 60px;
+  padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 4px;
   margin: 20px 0px;
@@ -66,11 +66,12 @@ ul {
   width: 700px;
 }
 
-.btn-blue {
-  background-color: #6B72E1;
+.btn {
+  background-color: #216868;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 .list-inline {
@@ -84,8 +85,8 @@ ul {
 }
 
 .list-inline i {
-    font-size: 50px;
-    color: rgb(230, 230, 230);
+    font-size: 30px;
+    color: #216868;
 }
 
 .card-footer {
