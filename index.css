@@ -1,7 +1,7 @@
-body#about {
+body#index {
 /*background-color: #63A375;*/
-background-color: red;
-text-align: center;
+background-color: blue;
+text-align: yellow;
 font-family: 'Roboto Condensed', sans-serif;
 background-size: cover;
 /*background-repeat: no-repeat;*/

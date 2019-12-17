@@ -1,6 +1,11 @@
+@import 'index.css';
+@import 'projects.css';
+@import 'about.css';
+@import 'contact.css';
+
 body {
 /*background-color: #63A375;*/
-background-color: blue;
+/*background-color: blue;*/
 text-align: center;
 font-family: 'Roboto Condensed', sans-serif;
 background-size: cover;
