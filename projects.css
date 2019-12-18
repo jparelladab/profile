@@ -25,20 +25,7 @@ margin: 0px;
 .title-banner h1 {
   color: white;
   font-size: 100px;
-
 }
-a .card-text {
-  font-weight: normal;
-  color: black;
-}
-.card-text p {
-  padding: 0px;
-  margin: 0px 15px;
-  font-size: 15px;
-  text-align: justify;
-  text-decoration: none;
-}
-
 
 .projects-container {
   display: flex;
@@ -55,6 +42,18 @@ a .card-text {
   position: relative;
   box-shadow: 5px 5px 5px rgba(20,20,20,0.5);
   border-radius: 5px;
+}
+
+a .card-text {
+  font-weight: normal;
+  color: black;
+}
+.card-text p {
+  padding: 0px;
+  margin: 0px 15px;
+  font-size: 15px;
+  text-align: justify;
+  text-decoration: none;
 }
 
 .project-card:hover {
